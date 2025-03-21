@@ -6,6 +6,18 @@ body {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
 header {
     background: linear-gradient(135deg, black);
     padding: 50px 20px;
